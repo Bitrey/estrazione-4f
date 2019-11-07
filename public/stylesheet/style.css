@@ -6,7 +6,7 @@ body {
 
 
 h1 {
-    font-size: 8vw;
+    font-size: 18vh;
     font-weight: 600;
     color: #fff;
 }
@@ -17,7 +17,7 @@ h1 {
     border: none;
     color: #FFFFFF;
     text-align: center;
-    font-size: 2vw;
+    font-size: 5vh;
     padding: 20px;
     transition: all 0.5s;
     cursor: pointer;
@@ -49,7 +49,7 @@ h1 {
 }
 
 #numero {
-    font-size: 10vw;
+    font-size: 20vh;
 }
 
 #numero, #nome {
@@ -58,7 +58,7 @@ h1 {
 }
 
 #nome {
-    font-size: 8vw;
+    font-size: 18vh;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
