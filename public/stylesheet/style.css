@@ -158,6 +158,7 @@ ul.menu li input[type="checkbox"]:checked+label {
 
 ul.menu li input[type="checkbox"] {
     display: absolute;
+    transition: all 0.5s;
 }
 
 ul.menu li input[type="checkbox"] {
@@ -167,4 +168,8 @@ ul.menu li input[type="checkbox"] {
 
 ul.menu li input[type="checkbox"]:focus+label {
     border: 2px solid #e9a1ff;
+}
+
+p {
+    transition: all 0.5s;
 }
