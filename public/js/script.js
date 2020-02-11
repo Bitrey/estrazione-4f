@@ -3,10 +3,10 @@ function persona(nome, numero) {
     this.numero = numero;
 }
 var nomi = [new persona("Amella Alessandro", 1), new persona("Bigliardi Laura", 2), new persona("Carnevali Lorenzo", 3), new persona("Caselli Silvia", 4),
-new persona("Casolari Asia", 5), new persona("Cassanelli Sebastiano", 6), new persona("Castillo Kiara", 7), new persona("Cerulli Francesco", 8),
-    new persona("Chiurazzi Lorenzo", 9), new persona("Costetti Bianca", 10), new persona("Fava Alessio", 11), new persona("Fazioli Filippo", 12), new persona("Manno Lorenzo", 13),
-    new persona("Mecugni Davide", 14), new persona("Oliva Christian", 15), new persona("Palotti Maxim", 16), new persona("Pavlik Yaroslav", 17),
-    new persona("Sergiano Francesco", 18), new persona("Soli Fatima", 19), new persona("Vitale Leonardo", 20)];
+new persona("Casolari Asia", 5), new persona("Cassanelli Sebastiano", 6), new persona("Castillo Kiara", 7),
+    new persona("Chiurazzi Lorenzo", 8), new persona("Costetti Bianca", 9), new persona("Fava Alessio", 10), new persona("Fazioli Filippo", 11), new persona("Manno Lorenzo", 12),
+    new persona("Mecugni Davide", 13), new persona("Oliva Christian", 14), new persona("Palotti Maxim", 15), new persona("Pavlik Yaroslav", 16),
+    new persona("Sergiano Francesco", 17), new persona("Soli Fatima", 18), new persona("Vitale Leonardo", 19)];
 
 function generaNumero() {
     var num = Math.floor(Math.random() * (nomi.length)) + 1;
