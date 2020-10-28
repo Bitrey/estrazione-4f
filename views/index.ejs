@@ -1,15 +1,24 @@
 <% include ./partials/header %>
 
-
 <div class="container">
-    <div style="display: inline-block; ">
-        <h1>3F</h1>
+    <div style="display: inline-block">
+        <h1>4F</h1>
         <ul class="menu">
-            <button class="button"><span>Estrai</span></button>
-            <li><input type="checkbox" id="remove" value="Elimina dopo estrazione"><label for="remove">Elimina dopo
-                    estrazione</label></li>
+            <li>
+                <button class="button"><span>Estrai</span></button>
+            </li>
+            <br />
+            <li>
+                <input
+                    type="checkbox"
+                    id="remove"
+                    value="Elimina dopo estrazione"
+                /><label for="remove">Elimina dopo estrazione</label>
+            </li>
         </ul>
     </div>
+
+    <ul id="persone"></ul>
 
     <p id="numero"></p>
     <p id="nome"></p>
